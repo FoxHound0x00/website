@@ -1,0 +1,67 @@
+.projects-page {
+    margin-top: 100px;
+    text-align: center;
+
+  }
+
+  .projects-page h1 {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+  }
+
+  .projects-page p {
+    font-size: 1.5rem;
+    text-align: center;
+    color: #666;
+  }
+  
+  .project-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 1rem;
+    margin-top: 30px;
+  }
+  
+  .project-card {
+    height: 100%;
+  }
+  
+  .card {
+    height: 100%;
+  }
+  
+  .card-img-top {
+    height: 200px;
+    object-fit: contain;
+    object-position: center;
+  }
+  
+  .card-body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .card-title {
+    margin-bottom: 0.5rem;
+    font-size: 1.4rem;
+    text-align: center;
+    color: #666;
+  }
+  
+  .card-text {
+    margin-bottom: auto;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #666;
+  }
+  
+  .card-link {
+    margin-top: 1rem;
+  }
+  
